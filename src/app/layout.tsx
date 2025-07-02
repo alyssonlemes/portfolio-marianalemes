@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Mariana Lemes - Fisioterapeuta Pediátrica | Desenvolvimento Infantil São Paulo',
-    template: '%s | Mariana Lemes - Fisioterapeuta Pediátrica'
+    default: 'Mariana Lemes - Fisioterapeuta Pediátrica 👶',
+    template: '%s | Mariana Lemes 👶'
   },
   description: 'Fisioterapeuta pediátrica especializada em desenvolvimento infantil em São Paulo. Atendimento humanizado para bebês e crianças com alterações neurológicas, respiratórias e ortopédicas. Estimulação precoce e reabilitação pediátrica. Agende sua consulta.',
   keywords: [
@@ -41,10 +41,10 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   metadataBase: new URL('https://marianalemes.com.br'),
   openGraph: {
-    title: 'Mariana Lemes - Fisioterapeuta Pediátrica | Desenvolvimento Infantil São Paulo',
+    title: 'Mariana Lemes - Fisioterapeuta Pediátrica 👶',
     description: 'Fisioterapeuta pediátrica especializada em desenvolvimento infantil. Atendimento humanizado e personalizado para bebês e crianças em São Paulo.',
     url: 'https://marianalemes.com.br',
-    siteName: 'Mariana Lemes - Fisioterapeuta Pediátrica',
+    siteName: 'Mariana Lemes 👶',
     images: ['/images/mariana-profissional-picture.png'],
     locale: 'pt_BR',
     type: 'website',

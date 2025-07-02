@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Mariana Lemes - Fisioterapeuta Pediátrica',
-    short_name: 'Mariana Lemes Fisio',
+    name: 'Mariana Lemes 👶',
+    short_name: 'Mariana Lemes 👶',
     description: 'Fisioterapeuta pediátrica especializada em desenvolvimento infantil em São Paulo. Estimulação precoce e reabilitação para bebês e crianças.',
     start_url: '/',
     display: 'standalone',
