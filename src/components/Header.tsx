@@ -119,7 +119,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            className="fixed inset-0 z-40 lg:hidden"
+            className="fixed inset-0 z-[60] lg:hidden"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -136,7 +136,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
 
             {/* Menu Content */}
             <motion.div
-              className="fixed top-0 right-0 bottom-0 w-4/5 max-w-xs sm:max-w-sm bg-white shadow-2xl overflow-y-auto"
+              className="fixed top-0 right-0 bottom-0 w-4/5 max-w-xs sm:max-w-sm bg-white shadow-2xl overflow-y-auto z-[70]"
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
