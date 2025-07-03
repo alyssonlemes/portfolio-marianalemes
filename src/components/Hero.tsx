@@ -184,8 +184,7 @@ const Hero: React.FC = () => {
                 className="text-slate-800 leading-tight"
                 itemProp="name"
               >
-                Mariana
-                <span className="text-brand block">Lemes</span>
+                Mariana <span className="text-brand">Lemes</span>
               </SEOHeading>
               <p 
                 className="text-xl md:text-2xl text-slate-600 font-light hero-description"

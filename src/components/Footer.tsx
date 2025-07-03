@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
         >
           <div className="text-center">
             <p className="text-sm text-slate-400">
-              © 2025 Mariana Lemes. Todos os direitos reservados.
+              ©2025 Desenvolvido por Alysson Lemes.
             </p>
           </div>
         </motion.div>

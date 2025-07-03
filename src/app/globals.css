@@ -112,6 +112,26 @@ header {
     margin-right: 0 !important;
     width: 100% !important;
   }
+
+  /* Fix logo circle distortion on small screens */
+  header .w-10.h-10 {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    min-width: 2.5rem !important;
+    min-height: 2.5rem !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Ensure proper flex layout */
+  header .flex.items-center.justify-between {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  header .flex.items-center.space-x-3 {
+    flex-shrink: 0 !important;
+    max-width: calc(100% - 4rem) !important;
+  }
 }
 
 /* Responsive media elements */

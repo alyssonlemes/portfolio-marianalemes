@@ -36,20 +36,20 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
         animate={{ y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-6 xl:px-8 w-full">
-          <div className="flex items-center justify-between h-14 sm:h-16 lg:h-20 w-full max-w-full">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
+          <div className="flex items-center justify-between h-16 w-full">
             {/* Logo */}
             <motion.div
-              className="flex items-center space-x-1 sm:space-x-2 flex-shrink-0 min-w-0 mr-2"
+              className="flex items-center space-x-3 flex-shrink-0"
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
-              <div className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-brand rounded-full flex items-center justify-center flex-shrink-0">
-                <span className="text-white font-bold text-xs sm:text-sm md:text-lg">ML</span>
+              <div className="w-10 h-10 bg-brand rounded-full flex items-center justify-center flex-shrink-0 aspect-square min-w-[2.5rem] min-h-[2.5rem]">
+                <span className="text-xs text-white font-bold">ML</span>
               </div>
-              <div className="hidden sm:block min-w-0">
-                <h1 className="text-sm sm:text-lg xl:text-xl font-bold text-slate-800 truncate">Mariana Lemes</h1>
-                <p className="text-xs xl:text-sm text-brand truncate">Fisioterapeuta Pediátrica</p>
+              <div className="hidden sm:block">
+                <h1 className="text-lg xl:text-xl font-bold text-slate-800 whitespace-nowrap">Mariana Lemes</h1>
+                <p className="text-sm text-brand whitespace-nowrap">Fisioterapeuta Pediátrica</p>
               </div>
             </motion.div>
 
@@ -93,13 +93,13 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
 
             {/* Mobile Menu Button */}
             <motion.button
-              className="lg:hidden p-1 text-slate-700 z-60 flex-shrink-0 ml-auto"
+              className="lg:hidden p-2 text-slate-700 flex-shrink-0"
               whileTap={{ scale: 0.95 }}
               onClick={toggleMobileMenu}
               aria-label="Toggle mobile menu"
             >
               <svg 
-                className="w-5 h-5" 
+                className="w-6 h-6" 
                 fill="none" 
                 stroke="currentColor" 
                 viewBox="0 0 24 24"
@@ -133,7 +133,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
               exit={{ opacity: 0 }}
               onClick={closeMobileMenu}
             />
-            
+
             {/* Menu Content */}
             <motion.div
               className="fixed top-0 right-0 bottom-0 w-4/5 max-w-xs sm:max-w-sm bg-white shadow-2xl overflow-y-auto"
@@ -142,28 +142,6 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
               exit={{ x: "100%" }}
               transition={{ type: "tween", duration: 0.3 }}
             >
-              {/* Close Button */}
-              <div className="flex items-center justify-between p-3 sm:p-4 border-b border-gray-100">
-                <div className="flex items-center space-x-2 min-w-0">
-                  <div className="w-7 h-7 sm:w-8 sm:h-8 bg-brand rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-xs sm:text-sm">ML</span>
-                  </div>
-                  <div className="min-w-0">
-                    <h2 className="text-sm font-bold text-slate-800 truncate">Mariana Lemes</h2>
-                    <p className="text-xs text-brand truncate">Fisioterapeuta</p>
-                  </div>
-                </div>
-                <button
-                  onClick={closeMobileMenu}
-                  className="p-1.5 sm:p-2 text-slate-500 hover:text-slate-700 flex-shrink-0"
-                  aria-label="Close menu"
-                >
-                  <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-              
               {/* Navigation Items */}
               <nav className="p-3 sm:p-6">
                 <div className="space-y-3 sm:space-y-4">
@@ -181,7 +159,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
                     </motion.a>
                   ))}
                 </div>
-                
+
                 {/* Mobile CTA Button */}
                 <motion.div
                   className="mt-6 sm:mt-8"
