@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Mariana Lemes 👶',
     short_name: 'Mariana Lemes 👶',
-    description: 'Fisioterapeuta pediátrica especializada em desenvolvimento infantil em São Paulo. Estimulação precoce e reabilitação para bebês e crianças.',
+    description: 'Fisioterapeuta pediátrica especializada em desenvolvimento infantil em Franca-SP. Estimulação precoce e reabilitação para bebês e crianças.',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

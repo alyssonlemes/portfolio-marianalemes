@@ -29,7 +29,7 @@ const Services: React.FC = () => {
     {
       icon: Baby,
       title: "Assimetria craniana",
-      description: "Rastreio e tratamento conservador de assimetrias cranianas em bebês (variações no formato da cabeça) Principais áreas.",
+      description: "Rastreio e tratamento conservador de assimetrias cranianas em bebês (variações no formato da cabeça).",
       features: ["Plagiocefalia", "Braquicefalia", "Dolicocefalia"],
       color: "from-primary-600 to-primary-800"
     },

@@ -168,7 +168,7 @@ const Hero: React.FC = () => {
               transition={{ delay: 0.2 }}
             >
               <Heart className="w-4 h-4" />
-              <span>Especialista em Fisioterapia Pediátrica</span>
+              <span>Especializada em Fisioterapia Pediátrica</span>
             </motion.div>
 
             {/* Main heading */}
@@ -190,7 +190,7 @@ const Hero: React.FC = () => {
                 className="text-xl md:text-2xl text-slate-600 font-light hero-description"
                 itemProp="jobTitle"
               >
-                Fisioterapeuta Pediátrica especializada em desenvolvimento infantil em São Paulo
+                Fisioterapeuta Pediátrica especializada em desenvolvimento infantil em Franca-SP
               </p>
             </motion.div>
 

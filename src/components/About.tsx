@@ -135,7 +135,7 @@ const About: React.FC = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <Brain className="w-4 h-4 text-brand" />
-                    <span>Especialista em Neuropediatria - UFSCar</span>
+                    <span>Especializada em Neuropediatria - UFSCar</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Heart className="w-4 h-4 text-brand" />
