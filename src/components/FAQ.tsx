@@ -143,7 +143,7 @@ export default function FAQ() {
               Estou aqui para esclarecer todas as suas dúvidas sobre fisioterapia pediátrica
             </p>
             <a 
-              href="#contato"
+              href="#contact"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-blue-600 text-white font-semibold rounded-xl hover:from-primary-700 hover:to-blue-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
             >
               <QuestionMarkCircleIcon className="w-6 h-6 mr-2" />
