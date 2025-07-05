@@ -7,37 +7,37 @@ const Testimonials: React.FC = () => {
   const testimonials = [
     {
       name: "Mariana Cristina",
-      content: "Excelente profissional. Muito atenciosa, cuidadosa, meu filho teve grandes avanços no processo de desenvolvimento. Nos consultamos há 4 meses. Só tenho a agradecer por todo o empenho, dedicação e ótimo trabalho com ele. Gratidão.",
+      content: "Excelente profissional. Muito atenciosa, cuidadosa, meu filho teve grandes avanços no processo de desenvolvimento, hoje com certeza é outra criança. Só tenho a agradecer por todo o empenho, dedicação e ótimo trabalho com ele. Gratidão 🙏",
       rating: 5,
       image: "👩‍💼"
     },
     {
       name: "Laura Rodrigues",
-      content: "Excelente profissional, muito atenciosa, foi muito cuidadosa e paciente com minha bebê me auxiliou nas atividades e sempre está à disposição para esclarecer qualquer dúvida. Indico a Dra para quem olha as avaliações fechadas.",
+      content: "Excelente profissional,muito atenciosa, foi muito cuidadosa e paciente com minha bebê me auxiliou nas atividades e sempre está a disposição para esclarecer qualquer dúvida Indico a Dra. Mariana de olhos fechados ",
       rating: 5,
       image: "👩‍🦰"
     },
     {
       name: "Tati Barcelos",
-      content: "Excelente profissional! Atenciosa! Ajudou com nosso bebê e estamos tendo resultados ótimos no desenvolvimento da pequena.",
+      content: "Excelente profissional! Atenciosa! Ajudou com nossa bebê e estamos tendo resultados ótimos no desenvolvimento da pequena.",
       rating: 5,
       image: "👩‍🏫"
     },
     {
       name: "Flavinha Polo",
-      content: "É sempre gratificante encontrar profissionais que são dedicados, carismáticos e amorosos no cuidado e avaliação com os nossos filhos. Agradeço pelo seu trabalho desde o comecinho na avaliação e com minha maravilhosa filha. Eu recomendo e caminho que tem na vida de nossas crianças. Vocês são anjos!",
+      content: "É sempre gratificante encontrar profissionais que são dedicados, carismáticos e amorosos no cuidado e avaliação com os nossos filhos. Agradeço pelo seu trabalho desde o comecinho na avaliação é uma maneira maravilhosa de reconhecer o carinho que têm na vida de nossas crianças. Vc é mil!!!!🥰😘",
       rating: 5,
       image: "👩‍🦱"
     },
     {
-      name: "Mariana Souza",
-      content: "Muito atenciosa e carinhosa com meu filho. Ajudou muito na questão da cabecinha dele e depois no desenvolvimento motor. Já ela já está quase andando com 8 meses hehehe. Super recomendo o trabalho dela, um amor.",
+      name: "Mariane Souza",
+      content: "Muito atenciosa e carinhosa com meu filho. Ajudou muito na questão da cabecinha dele e depois no desenvolvimento motor. Hj ele já está quase andando com 8 meses hehehe .Super recomendo o trabalho dela, um amor.",
       rating: 5,
       image: "👩‍💼"
     },
     {
       name: "Nathane Covas",
-      content: "Mari é uma excelente profissional!! Super atenciosa e cuidadosa... sua explicação é de uma maneira simples e respeitosa, deixando nós papais muito confortáveis em relação à saúde. Sem preconceito! Parabéns Mari, profissionais como você são raros e diferentes!",
+      content: "Mari é uma excelente profissional!! Super atenciosa e cuidadosa.. sua explicação é de uma maneira simples e respeitosa, deixando nós papais muito confortáveis em entregar nosso bem precioso! Parabéns Mari, profissionais como você é que fazem a diferença.",
       rating: 5,
       image: "👩‍🦳"
     }
